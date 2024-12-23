@@ -1,0 +1,40 @@
+input[typ="text"], input[type="email"]{
+    border: 1pxsolid green;
+    background-color: black;
+}
+
+
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid cyan;
+    border-radius: 50px;
+}
+.none{
+    visibility: hidden;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid cyan;
+    border-radius: 50px;
+}
+
+.main-div{
+    border: 5px solid cyan;
+    border-radius: 50px;
+    width: 200px;
+}
+
+img{
+    object-fit: cover;
+}
+
+.parent-div{
+    border: 5px solid red;
+    border-radius: 50px;
+    width: 200px;
+}

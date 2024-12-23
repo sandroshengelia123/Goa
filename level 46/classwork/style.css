@@ -1,0 +1,26 @@
+.style
+body{
+    font-family: arial, sams-uerfit;
+}
+
+.table{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid cyan;
+    border-radius
+}
+
+thead{
+    background-color:;
+    color: blue;
+}
+
+th, td{
+    padding: 32px;
+    text-align: left;
+}
+
+thody tr {
+    border-bottom: 1px solid #ddd;
+}

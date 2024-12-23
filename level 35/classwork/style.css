@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(1){
+    background-color:rgb(78, 129, 0)
+    color(srgb red green blue)
+}
+
+tr:nth-child(3){
+    color: rgb(78, 129, 0);
+}
+
+tr:nth-child{
+    background-color: seashell;
+    color: black;
+}
+
+table{
+    border-bottom: 2px solid green;
+    width: 300px
+}
+
+td, th{
+    text-align: left;
+}
