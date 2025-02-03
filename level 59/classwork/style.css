@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 5px solid red;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+.square{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: changeColor;
+    margin-left: 150px
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes myAnimation {
+    0%{
+        background-color: black;
+    }
+    10%{
+    
+        background-color: aquamarine;
+    }
+    25%{
+    
+        background-color: chartreuse;
+    }
+    50%{
+    
+        background-color: darkorange;
+    }
+    75%{
+     
+        background-color: midnightblue;
+    }
+    100%{
+    
+        background-color: antiquewhite;
+    }
+}

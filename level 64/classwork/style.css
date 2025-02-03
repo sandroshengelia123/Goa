@@ -1,0 +1,53 @@
+.card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+
+.card h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+
+.card a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-decoration: overline;
+    color: black;
+}
+
+
+.circle{
+    background-color: aquamarine;
+    width: 70.40;
+    height: 80px;
+    border-radius: 40px;
+}
+
+
+.circles{
+    width: 300px;
+    /* height 3% */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* border: solid; */
+    gap: 40px;
+}
+
+
+
+.feature{
+    text-align: center;
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}

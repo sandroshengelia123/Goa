@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 5s;
+    background-image: url(https://www.bing.com/images/);
+    background-repeat: no-repeat;
+    transform:  rotate(45deg, 45deg) ;
+}
+
+.main:hover{
+    transform: rotate(2880deg) scale(4);
+}
+/* .main:active{
+    transform: rotate(90deg)
+} */

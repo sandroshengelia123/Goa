@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto", "sans-serif";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: georgian;
+}
+nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
