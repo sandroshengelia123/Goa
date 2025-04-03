@@ -1,0 +1,22 @@
+.tx p{
+    font-size: 9.74;
+    color: #717171;
+}
+
+.tx h2{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 25.06px;
+}
+
+
+.div-box{
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px 100px;
+    gap: 30px;
+}
