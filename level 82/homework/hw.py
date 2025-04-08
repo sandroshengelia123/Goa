@@ -12,9 +12,6 @@ print(dont_give_me_five(50, 60))
 
 
 
-def small_enough(array, limit):
-    return all(x <= limit for x in array)
-
 
 # test
 #print(small_enough([66, 101,], 200)) # true
@@ -23,8 +20,7 @@ def small_enough(array, limit):
 
 
 
-def add_lengths(s):
-    return[f"{word} {len(word)}" for word in s . split()]
+
 
 #print(add_length("apple ban")) # Output: ['apple 5', 'ban 3']
 #print(add_length("you will win")) # Output:['you 3', 'will 4', 'win 3']
