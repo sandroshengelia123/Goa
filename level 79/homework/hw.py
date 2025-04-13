@@ -91,4 +91,87 @@ if age_check < 18:
     print("თქვენ არასრულწლოვანი ხართ.")
 else:
     print("თქვენ ხართ სრულწლოვანი.")
-        
+
+
+# 19
+my_name = "sandro" # აქ ჩაწერე შენი სახელი
+
+user_name = input("შეიყვანე შენი სახელი:")
+
+if len(user_name) == len(my_name):     
+   print("ჩვენ სახელებში ერთნაირი რაოდენობის ასოებია")
+else:
+    print("კარგი სახელია") 
+
+# 20
+num = int(input("შეიყვანე რიცხვი"))
+if num % 2 == 0:
+   print("ლუწია")  
+else:
+    print("კენტია")
+
+# 21 
+a = float(input("შეიყვანე პირველი რიცხვი: "))
+b = float(input("შეიყვანე მეორე რიცხვი: "))
+op = float(input("მოქმედება (+, -, *, /): "))
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    if b != 0:
+        print(a / b)
+    else:
+        print("ნულზე გაყოფა არ შეიძლება")
+else:
+    print("არასწორი ოპერაცია")
+
+
+# 22
+book = input("რომელი წიგნი გირჩევნია? ")
+if book. lower() == "ჰარი პოტერი":
+    print("ეს არის მაგიური წიგნი")
+else:
+    print("შეყვანილია სხვა წიგნი")
+
+# 23
+print(False or True) # შედეგი იქნება: True
+
+# 24
+print(False or True) # შედეგი იქნება: False
+
+# 25
+print(False and (True or True)) # შედეგი იქნება: False
+
+# 26
+print((True and False) or True and True or False)
+# True and false -> False
+# False or True and True -> True and True -> True
+# საბოლოო შედეგი: True
+
+# 27
+print(False or True or True or False and False or (True and False))
+# true or False or True False and False or False
+# True or False or False -> True
+
+# 28
+print(True and(True or False) and False or(True and False)) # პასუხი: False
+
+# 29
+name = input("შეიყვანე შენი სახელი:")
+if len(name) > 6:
+    print("კარგი სახელია.")
+else:
+    print("მოკლე სახელია.")
+
+# 30
+a = int(input("შეიყვანე პირველი რიცხვი: "))
+b = int(input("შეიყვანე მეორე რიცხვი: "))
+
+if a < b:
+    print("პირველი რიცხვი მეტია მეორე რიცხვზე.")
+else:
+    print("მეორე რიცხვი მეტია პირველზე.")
