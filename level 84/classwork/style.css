@@ -1,0 +1,30 @@
+body{
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 270px 80px 130px 200px;
+    gap: 30px;
+}
+
+.div1{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 2/4;
+    grid-row: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div1 h1{
+    font-size: 3rem;
+}
+.div1 img{
+    width: 200px;
+}
+.yellow{
+    color: hsl(39, 100%, 71%);
+}
